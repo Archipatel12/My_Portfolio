@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archi Patel — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#hero" class="nav-logo">Archi Patel</a>
+      <ul class="nav-links">
+        <li><a href="#hero">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="#skills">Skills</a></li> -->
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-photo-wrap">
+        <img src="Me.jpeg" alt="Archi Patel" class="hero-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="hero-photo-placeholder" aria-hidden="true">My Photo</div>
+      </div>
+      <p class="hero-label">Graduate CS · Full-Stack & AI</p>
+      <h1 class="hero-title">Archi <em>Patel</em></h1>
+      <p class="hero-desc">I'm a graduate computer science student and full-stack developer who turns ideas into shipped products. I build scalable systems, AI-powered tools, and cloud-native applications—using .NET, React, and Agile teams—and I care about backend optimization, NLP, and delivery from start to finish. For me, technical depth and clear execution go hand in hand.</p>
+      <div class="hero-contact">
+        <a href="mailto:archipatel9954@gmail.com">archipatel9954@gmail.com</a>
+        <span class="hero-sep">·</span>
+        <a href="tel:+14239514011">(423) 951-4011</a>
+        <span class="hero-sep">·</span>
+        <a href="https://linkedin.com/in/archipatel12" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="hero-sep">·</span>
+        <a href="https://github.com/Archipatel12" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <a href="#projects" class="btn btn-primary">View my work</a>
+    </section>
+
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <!-- <p class="section-intro">My academic background—click a degree to see details.</p> -->
+        <div class="education-list">
+          <article class="edu-card" data-edu>
+            <button type="button" class="edu-card-header" aria-expanded="false" aria-controls="edu-body-1" id="edu-trigger-1">
+              <div class="edu-header-text">
+                <span class="edu-degree">Master's in Computer Science</span>
+                <span class="edu-school">Stevens Institute of Technology</span>
+                <span class="edu-meta">GPA: 3.9/4.0 · May 2027</span>
+              </div>
+              <span class="edu-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="edu-card-body" id="edu-body-1" hidden>
+              <h4 class="edu-subtitle">My Journey</h4>
+              <p class="edu-journey">Stevens is in Hoboken, right across from Manhattan—in the heart of the NYC area. Coming here for my Master's as an international student brought very unexpected challenges: it was the first time I was studying so far from home, and I had to learn to do everything on my own. That experience really shaped me. I also met a lot of people from different backgrounds—some came to Stevens right out of college, some had years of experience, and some were working professionals balancing jobs and school. Each of them offered a different perspective.</p>
+              <p class="edu-journey">During my Master's I've stayed focused on balancing coursework, projects, and life. What I'm learning has significantly contributed to my understanding of AI and systems in the real world. I've had the privilege of learning from professors who work in industry and research; each of them has left a lasting impression on me. Doing it all as an international student taught me to rely on myself and figure things out on my own—and that's something I carry with me every day.</p>
+              <p class="edu-journey">If you'd like to connect or see more of my work, I'm on <a href="https://linkedin.com/in/archipatel12" target="_blank" rel="noopener">LinkedIn</a> and <a href="https://github.com/Archipatel12" target="_blank" rel="noopener">GitHub</a>. Happy to connect.</p>
+              <h4 class="edu-subtitle">Courses Taken</h4>
+              <ul class="edu-courses">
+                <li>CS 561 – Database Management Systems I</li>
+                <li>ELC 071 – Language & Communication in Academic Context</li>
+                <li>CS 525 – Systems Programming</li>
+                <li>CS 589 – Text Mining and Information Retrieval</li>
+                <li>CS 513 - Knowledge Discovery and Data Mining</li>
+                <li>WS 556 - Mathematics of Machine Learning</li>
+                <li>BIA 662 - Augmented Intelligence & Generative AI</li>
+                <li>Generative AI</li>
+              </ul>
+             
+            </div>
+          </article>
+          <article class="edu-card" data-edu>
+            <button type="button" class="edu-card-header" aria-expanded="false" aria-controls="edu-body-2" id="edu-trigger-2">
+              <div class="edu-header-text">
+                <span class="edu-degree">B.Tech (Computer Engineering)</span>
+                <span class="edu-school">P P Savani University · NAAC A+</span>
+                <span class="edu-meta">CGPA: 8.56/10 · June 2025</span>
+              </div>
+              <span class="edu-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="edu-card-body" id="edu-body-2" hidden>
+              <h4 class="edu-subtitle">My Journey</h4>
+              <p class="edu-journey">PPSU, near Surat, is where it all started for me. The courses below—from Programming for Problem Solving and Data Structures to Full Stack Development, Machine Learning, and AI—gave me the foundation I still lean on. I loved teaching Data Structures, Computer Applications, and DBMS as an intern and mentoring 40+ students; it taught me how to explain ideas clearly and stay focused on what actually works. The projects I built here (E-commerce, Travel Booking, forms, blogs—many of them on <a href="https://github.com/Archipatel12" target="_blank" rel="noopener">GitHub</a>) led me to my internship at Casepoint and eventually to Stevens.</p>
+              <p class="edu-journey">If you'd like to connect or see more of my work, I'm on <a href="https://linkedin.com/in/archipatel12" target="_blank" rel="noopener">LinkedIn</a> and <a href="https://github.com/Archipatel12" target="_blank" rel="noopener">GitHub</a>. Always happy to chat.</p>
+              <h4 class="edu-subtitle">Courses Taken</h4>
+              <ul class="edu-courses">
+                <li>Programming for Problem Solving</li>
+                <li>Introduction to Web Designing</li>
+                <li>Object Oriented Programming with Java</li>
+                <li>Data Structures</li>
+                <li>Database Management System</li>
+                <li>Programming with Python</li>
+                <li>Mobile Application Development</li>
+                <li>Discrete Mathematics</li>
+                <li>Computer Organization</li>
+                <li>Computer Networks</li>
+                <li>Operating System</li>
+                <li>Software Engineering</li>
+                <li>Design & Analysis of Algorithms</li>
+                <li>System Analysis & Design</li>
+                <li>Theory of Computation</li>
+                <li>Internet of Things</li>
+                <li>Data Science</li>
+                <li>Cloud Computing & Applications</li>
+                <li>Artificial Intelligence</li>
+                <li>Full Stack Development</li>
+                <li>Image Processing</li>
+                <li>System Software</li>
+                <li>Machine Learning</li>
+                <li>Advanced Web Technologies</li>
+                <li>Cyber Security</li>
+                <li>Project I & II / Summer Internship</li>
+              </ul>
+              
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Experience / Internships</h2>
+        <!-- <p class="section-intro">Where I've worked and what I've done:</p> -->
+        <div class="experience-list">
+          <article class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Software Engineer Intern / Team Lead</h3>
+                <p class="exp-company">Casepoint Pvt Ltd</p>
+              </div>
+              <span class="exp-date">Jan 2025 – May 2025</span>
+            </div>
+            <p class="exp-overview">Casepoint is a technology company that builds software for legal and compliance workflows. I joined as a Software Engineer Intern and was selected as Team Lead for a group of 11 interns. Together we delivered CareerLink—an AI-enabled recruitment management system—in 3 Agile sprints, from concept to working product.</p>
+            <p class="exp-overview">My role combined hands-on backend development with leadership: I built core modules while coordinating the team, running sprint planning, and ensuring quality through code reviews and progress tracking.</p>
+            <h4 class="exp-subtitle">Key Projects</h4>
+            <ul class="exp-bullets">
+              <li>Led a team of 11 interns to deliver CareerLink, an AI-enabled recruitment management system in 3 Agile sprints.</li>
+              <li>Built backend modules using .NET, SQL, and Redis for real-time job updates and candidate caching.</li>
+              <li>Integrated RabbitMQ for asynchronous processing and instant email notifications.</li>
+              <li>Implemented AI-based resume scoring to assess ATS compatibility and automate interview scheduling.</li>
+              <li>Built an admin dashboard to monitor active users and recruiters, improving platform visibility.</li>
+              <li>Oversaw sprint planning, code reviews, and progress tracking to ensure timely, high-quality delivery.</li>
+            </ul>
+            <h4 class="exp-subtitle">Skills Gained</h4>
+            <ul class="exp-skills">
+              <li>.NET & C#</li>
+              <li>SQL & Redis</li>
+              <li>RabbitMQ (Async Messaging)</li>
+              <li>Agile & Sprint Planning</li>
+              <li>Team Leadership</li>
+              <li>Backend Development</li>
+              <li>AI/ML Integration</li>
+              <li>Code Reviews</li>
+            </ul>
+            <h4 class="exp-subtitle">Reflection</h4>
+            <p class="exp-reflection">This internship was my first time leading a technical team. I learned how to balance writing code with coordinating others—sprint planning, code reviews, and keeping delivery on track. Building CareerLink from idea to deployment showed me how .NET, SQL, Redis, and RabbitMQ fit together in a real product, and implementing AI-based resume scoring connected what I'd learned in school to a production system. The experience reinforced how much I enjoy full-stack and AI work, and it gave me confidence in both technical execution and teamwork.</p>
+          </article>
+          <article class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Teaching Intern</h3>
+                <p class="exp-company">P P Savani University</p>
+              </div>
+              <span class="exp-date">Jul 2024 – Dec 2024</span>
+            </div>
+            <p class="exp-overview">P P Savani University (PPSU) is an NAAC A+ institution with a School of Engineering near Surat. I joined as a Teaching Intern and was responsible for delivering undergraduate courses and supporting students in the lab. It was my first formal teaching experience, and it taught me how to explain complex ideas clearly and support others as they learn.</p>
+            <p class="exp-overview">My key responsibilities included designing and delivering lectures and labs for Data Structures, Computer Applications, and DBMS, and mentoring 40+ students in lab sessions to build their coding confidence and problem-solving skills.</p>
+            <h4 class="exp-subtitle">Key Responsibilities</h4>
+            <ul class="exp-bullets">
+              <li>Delivered undergraduate courses in Data Structures, Computer Applications, and DBMS.</li>
+              <li>Designed lectures and labs to strengthen student understanding and programming skills.</li>
+              <li>Mentored 40+ students in lab sessions, improving coding confidence and problem-solving ability.</li>
+            </ul>
+            <h4 class="exp-subtitle">Skills Gained</h4>
+            <ul class="exp-skills">
+              <li>Teaching & Mentoring</li>
+              <li>Curriculum & Lab Design</li>
+              <li>Data Structures & DBMS</li>
+              <li>Communication</li>
+              <li>Problem-Solving</li>
+            </ul>
+            <h4 class="exp-subtitle">Reflection</h4>
+            <p class="exp-reflection">Teaching forced me to understand the material at a deeper level—if I couldn't explain it simply, I hadn't really got it yet. Mentoring 40+ students in the lab showed me how different everyone's learning path is, and it improved my patience and my ability to break down problems. The experience shaped how I communicate technical ideas and gave me confidence that I can both build software and help others learn. It's something I carry with me in every team and project since.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   <section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+
+    <!-- <p class="section-intro">
+      A selection of what I've built—from AI and full-stack apps to web platforms. 
+      Check out my 
+      <a href="https://github.com/Archipatel12" target="_blank" rel="noopener">GitHub</a> for more.
+    </p> -->
+
+    <div class="projects-grid">
+
+      <!-- Project 01 -->
+      <article class="project-card">
+        <div class="project-number">01</div>
+        <h3 class="project-title">Legal Search Engine</h3>
+        <p class="project-desc">
+          AI-powered legal case search engine for New Jersey case law using hybrid retrieval (BM25 + semantic embeddings + RRF). 
+          Integrated GPT-4o-mini for concise legal summaries with sub-second response time.
+        </p>
+        <span class="project-tag">Python · FastAPI · React · NLP · GPT-4o-mini</span>
+        <a href="https://github.com/Archipatel12/legal-search-engine" target="_blank" rel="noopener" class="project-link">
+          GitHub →
+        </a>
+      </article>
+
+      <!-- Project 02 -->
+      <article class="project-card">
+        <div class="project-number">02</div>
+        <h3 class="project-title">Learning AI Assistant</h3>
+        <p class="project-desc">
+          Intelligent desktop assistant that understands user queries and provides relevant responses using NLP. 
+          Supports conversational interaction and basic automation.
+        </p>
+        <span class="project-tag">Python · NLP · Machine Learning · Tkinter</span>
+        <a href="https://github.com/Archipatel12/LearningAIAssistant" target="_blank" rel="noopener" class="project-link">
+          GitHub →
+        </a>
+      </article>
+
+      <!-- Project 03 -->
+      <article class="project-card">
+        <div class="project-number">03</div>
+        <h3 class="project-title">MakeYourTrip Web Application</h3>
+        <p class="project-desc">
+          Travel booking website with user authentication, tour packages, booking system, and admin management panel.
+        </p>
+        <span class="project-tag">PHP · MySQL · HTML · CSS · JavaScript</span>
+        <a href="https://github.com/Archipatel12/MAKEYOURTRIP" target="_blank" rel="noopener" class="project-link">
+          GitHub →
+        </a>
+      </article>
+
+      <!-- Project 04 -->
+      <article class="project-card">
+        <div class="project-number">04</div>
+        <h3 class="project-title">E-commerce Platform</h3>
+        <p class="project-desc">
+          Full-stack e-commerce application with authentication, product management, cart, and order tracking. 
+          Built with RESTful APIs and MongoDB Atlas.
+        </p>
+        <span class="project-tag">React.js · Node.js · Express.js · MongoDB</span>
+        <a href="https://github.com/Archipatel12/Ecommerce" target="_blank" rel="noopener" class="project-link">
+          GitHub →
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="skills-text">Python, JavaScript, C, SQL, Java, PHP, .NET, React.js, Node.js, Flask, MySQL, PostgreSQL, MongoDB, Google Cloud, AWS, Git, Machine Learning, NLP, BERT, Text Mining, Agile Development, Power BI, Tableau</p>
+      </div>
+    </section> -->
+
+    <section id="certifications" class="certifications">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <!-- <p class="section-intro">Credentials I've earned:</p> -->
+        <ul class="cert-list">
+          <li>Google Cloud Skills Boost (Level 3 – GenAI) · Jan 2024</li>
+          <li>IBM – Developing Front-End Apps with React · May 2024</li>
+          <li>IBM – Machine Learning with Python · May 2024</li>
+          <li>University of Michigan – Building Web Applications in PHP · Jun 2024</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-text">If you'd like to get in touch, feel free to reach out via email or LinkedIn! I'd love to hear from you.</p>
+        <div class="contact-links">
+          <a href="mailto:archipatel9954@gmail.com" class="btn btn-primary">Email me</a>
+          <a href="tel:+14239514011" class="btn btn-secondary">Call (423) 951-4011</a>
+          <a href="https://linkedin.com/in/archipatel12" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+          <a href="https://github.com/Archipatel12" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- <footer class="footer">
+    <div class="container">
+      <p class="footer-text">Archi Patel · Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
